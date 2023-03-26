@@ -1,0 +1,133 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #999;
+}
+.container .row .product-img{
+    width: 100%;
+    height: 250px;
+}
+
+.footer{
+    background-color: black;
+    color: #dbaa09;
+    
+}
+.footer .who-are-we{
+    position: relative;
+    top: 2rem;
+}
+.footer .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.footer .content i{
+    font-size: 2rem;
+    color: #dbaa09;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+.footer .content h2{
+    font-weight: bold;
+    font-family: sans-serif;
+} 
+
+a{
+    text-decoration: none;
+}
+
+
+.banner{
+    background-image: url(../imgs/online-bazar.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: 99;
+}
+@media (max-width:590px){
+    .banner {
+        /* background-image: url("{{ asset('assets/images/online-bazar.jpg') }}"); */
+        width: 100%;
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: 99;
+
+    }
+} 
+.banner .content{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: white;
+}
+.banner .content .formargin{
+margin-bottom: 2rem;
+font-size: 2rem;
+
+}
+.banner .content a{
+    background-color: #dbaa09;
+    padding: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+
+}
+button.delete-cart-item{
+    background-color: #dbaa09;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.card-body button{
+    background-color: #dbaa09;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.card .card-body a{
+    background-color: #dbaa09;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.card .card-body small{
+    font-size: 15px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
